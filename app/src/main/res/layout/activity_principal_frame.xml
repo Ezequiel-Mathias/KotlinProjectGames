@@ -35,7 +35,6 @@
         app:layout_constraintHorizontal_bias="0.901"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-
         app:layout_constraintVertical_bias="0.032" />
 
     <ImageView
@@ -50,6 +49,7 @@
         app:layout_constraintVertical_bias="0.023" />
 
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="212dp"
         android:layout_height="35dp"
         android:text="New and trending"
@@ -60,15 +60,28 @@
         app:layout_constraintHorizontal_bias="0.08"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.206"
 
-        />
+        app:layout_constraintVertical_bias="0.206" />
 
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="173dp"
+        android:layout_height="42dp"
+        android:text="Best of the year"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.692" />
 
     <HorizontalScrollView
         android:layout_width="521dp"
         android:layout_height="274dp"
-        android:layout_marginEnd="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -79,82 +92,276 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <LinearLayout
-                android:layout_width="260dp"
-                android:layout_height="240dp"
-                android:background="@color/white"
-                android:orientation="horizontal">
-
-                <ImageView
-
-                    android:layout_width="match_parent"
-                    android:layout_height="400px"
-                    android:layout_marginRight="5dp"
-                    android:src="@drawable/ic_launcher_background" />
-
-            </LinearLayout>
 
             <LinearLayout
-                android:layout_width="260dp"
+                android:layout_width="290dp"
                 android:layout_height="match_parent"
-                android:background="@color/white"
-                android:orientation="horizontal">
+                android:background="#7F828E"
+                android:orientation="vertical"
+                android:layout_marginLeft="110dp"
+                android:layout_marginRight="10dp"
+
+                >
+
+                <ImageView
+                    android:layout_marginTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="400px"
+                    android:layout_marginRight="5dp"
+                    android:src="@drawable/cardimage" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contra III: The Alien Wars"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/cartons" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="260dp"
+                android:layout_height="240dp"
+                android:background="#7F828E"
+                android:orientation="vertical"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="400px"
                     android:layout_marginRight="5dp"
-                    android:src="@drawable/ic_launcher_background" />
+                    android:src="@drawable/cardimage" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contra III: The Alien Wars"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/cartons" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="260dp"
                 android:layout_height="240dp"
-                android:background="@color/white"
-                android:orientation="horizontal">
+                android:background="#7F828E"
+                android:orientation="vertical"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
 
                 <ImageView
-
                     android:layout_width="match_parent"
                     android:layout_height="400px"
                     android:layout_marginRight="5dp"
-                    android:src="@drawable/ic_launcher_background" />
+                    android:src="@drawable/cardimage" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contra III: The Alien Wars"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/cartons" />
 
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="260dp"
                 android:layout_height="240dp"
-                android:background="@color/white"
-                android:orientation="horizontal">
+                android:background="#7F828E"
+                android:orientation="vertical"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
 
                 <ImageView
-
                     android:layout_width="match_parent"
                     android:layout_height="400px"
                     android:layout_marginRight="5dp"
-                    android:src="@drawable/ic_launcher_background" />
+                    android:src="@drawable/cardimage" />
 
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="260dp"
-                android:layout_height="240dp"
-                android:background="@color/white"
-                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contra III: The Alien Wars"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    />
 
                 <ImageView
-
-                    android:layout_width="match_parent"
-                    android:layout_height="400px"
-                    android:layout_marginRight="5dp"
-                    android:src="@drawable/ic_launcher_background" />
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/cartons" />
 
             </LinearLayout>
+
 
 
         </LinearLayout>
     </HorizontalScrollView>
+
+
+
+    <HorizontalScrollView
+        android:layout_width="521dp"
+        android:layout_height="200dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="260dp"
+                android:layout_height="240dp"
+                android:orientation="vertical"
+                android:layout_marginLeft="120dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <ImageView
+
+                    android:layout_width="225dp"
+                    android:layout_height="137dp"
+
+                    android:src="@drawable/maskgroup" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The witcher"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="80dp"
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="260dp"
+                android:layout_height="240dp"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <ImageView
+                    android:layout_width="225dp"
+                    android:layout_height="137dp"
+                    android:src="@drawable/maskgroup" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The witcher"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="80dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="260dp"
+                android:layout_height="240dp"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <ImageView
+                    android:layout_width="225dp"
+                    android:layout_height="137dp"
+                    android:src="@drawable/maskgroup" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The witcher"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="80dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="260dp"
+                android:layout_height="240dp"
+                android:orientation="vertical"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp">
+
+                <ImageView
+                    android:layout_width="225dp"
+                    android:layout_height="137dp"
+                    android:src="@drawable/maskgroup" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The witcher"
+                    android:textSize="16dp"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="80dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

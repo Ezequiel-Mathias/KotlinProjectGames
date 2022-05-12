@@ -5,8 +5,10 @@
       <map>
         <entry key="..\:/Users/21276325/AndroidStudioProjects/KotlinProjctGames/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
         <entry key="..\:/Users/21276325/AndroidStudioProjects/KotlinProjctGames/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/21276325/AndroidStudioProjects/KotlinProjctGames/app/src/main/res/layout/activity_frame_de_pesquisa.xml" value="0.3411458333333333" />
         <entry key="..\:/Users/21276325/AndroidStudioProjects/KotlinProjctGames/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/21276325/AndroidStudioProjects/KotlinProjctGames/app/src/main/res/layout/activity_principal_frame.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/21276325/AndroidStudioProjects/KotlinProjctGames/app/src/main/res/layout/activity_ultima_frame.xml" value="0.32760416666666664" />
       </map>
     </option>
   </component>

@@ -10,10 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinProjctGames">
         <activity
+            android:name=".UltimaFrame"
+            android:exported="false" />
+        <activity
+            android:name=".FrameDePesquisa"
+            android:exported="false" />
+        <activity
             android:name=".PrincipalFrame"
             android:exported="false"
-            android:label="Home"
-            />
+            android:label="Home" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
